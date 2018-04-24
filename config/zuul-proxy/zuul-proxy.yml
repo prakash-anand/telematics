@@ -17,3 +17,7 @@ zuul:
     location:
       path: /location-service/**
       service-id: location
+  routes:
+    location:
+      path: /distance-service/**
+      service-id: distance  

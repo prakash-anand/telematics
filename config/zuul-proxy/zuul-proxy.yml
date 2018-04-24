@@ -3,12 +3,6 @@ spring:
     name: zuul-proxy
 server:
   port: 8005
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8001/eureka
-  instance:
-    hostname: localhost
 zuul:
   host:
     max-per-route-connections: 10

@@ -14,7 +14,7 @@ zuul:
     max-per-route-connections: 10
     max-total-connections: 100
   routes:
-    location:
+    location-123:
       path: /location-service/**
       service-id: location
     distance:

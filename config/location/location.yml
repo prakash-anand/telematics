@@ -15,3 +15,6 @@ endpoints:
   info:
     enabled: true
     sensitive: false
+  mappings:
+    enabled: true
+    sensitive: false

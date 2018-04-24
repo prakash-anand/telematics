@@ -10,7 +10,7 @@ zuul:
   routes:
     location-123:
       path: /location-service/**
-      service-id: location
+      service-id: location-service
     distance:
       path: /distance-service/**
       service-id: distance  

@@ -8,3 +8,9 @@ eureka:
   client:
     service-url: 
       defaultZone: http://localhost:8001/eureka
+endpoints:
+  actuator:
+    enabled: true
+    sensitive: true
+  info:
+    enabled: true

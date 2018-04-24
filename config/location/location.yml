@@ -18,3 +18,6 @@ endpoints:
   mappings:
     enabled: true
     sensitive: false
+  loggers:
+    enabled: true
+    sensitive: false

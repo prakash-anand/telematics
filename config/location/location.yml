@@ -17,6 +17,9 @@ endpoints:
   loggers:
     enabled: true
     sensitive: false
+  metrics:
+    enabled: true
+    sensitive: false     
 info:
   app:
     name: Location Service

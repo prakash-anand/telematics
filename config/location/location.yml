@@ -17,3 +17,7 @@ endpoints:
   loggers:
     enabled: true
     sensitive: false
+info:
+  app:
+    name: Location Service
+    version: 1.0   
